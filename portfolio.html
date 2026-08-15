@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Himanshu | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <header>
+      <h1>Himanshu Singh Yadav</h1>
+      <p>Full Stack Developer & Lifelong Learner</p>
+      <nav id="headera">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <br>
+    </header>
+
+    <main>
+      <section id="about" class="about">  <!--here id for linking above and we use # so that it connected-->
+        <h2>About Me</h2>
+        <figure>
+          <img src="himanshu.jpg" alt="Person image"/>
+          <figcaption>That's me at my first hackathon!</figcaption>
+        </figure>
+        <p>
+          Hii ,I am <strong>Himanshu Singh Yadav</strong> a passionate full
+          stack developer learning to build real world products.I am currently
+          taking the <em>PW Full Stack Course</em>.
+        </p>
+      </section>
+
+      <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-card">
+          <article>
+            <h3>Project One : Portfolio Website</h3>
+            <p>A simple personal portfolio built with <b>HTML</b> and <b>CSS.</b></p>
+            <a href="">View on GitHub</a>
+          </article>
+        
+          <article>
+            <h3>Project Two : Todo App</h3>
+            <p>A todo list app built with <b>JavaScript</b>.</p>
+            <a href="">View on GitHub</a>
+          </article>
+        </div>
+
+        <div class="skills">
+            <h3>Skills</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Java Script</li>
+            </ul>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Watch My Intro</h2>
+        <video src="video.mp4" controls poster="himanshu.jpg"></video>
+      </section>
+    </main>
+
+    <footer>
+      <h2 >Contact Me </h2>
+      <div class="info">
+        <p>Email :<a href="mailto:himanshu@gmail.com">  himanshu@gmail.com</a> </p>
+        <p>Phone :<a href="tel:+919876543219"> +91 9876543219</a> </p>
+      </div>
+      <form action="">
+        <label for="name">Name :</label>
+        <input type="text" id="name" />
+
+        <br><br>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" />
+
+        <br><br>
+
+        <label for="message">Message :</label>
+        <br>
+        <textarea name="message" id="message" rows="5" cols="40"> </textarea>
+        <br><br>
+        <button type="button">Send Message</button>
+  
+      </form>
+      <hr>
+      <p class="lastp">&copy; 2026 Himanshu Singh Yadav. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
